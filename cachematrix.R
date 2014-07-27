@@ -2,7 +2,8 @@
 ## matrix that can cache its inverse to avoid the expense of this operation
 ## executing more than once.
 
-## 'matrix_val' is a square matrix to be contained in the cache enabled object.
+## 'matrix_val' is a square matrix to be contained in the cache enabled object,
+## this function assumes that the matrix supplied is always invertible.
 ##
 ## Return an object that contains the input martix_val with the ability to
 ## cache its inverse.
